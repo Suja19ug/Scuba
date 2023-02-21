@@ -4,7 +4,7 @@ public class TestBank
 	public static void main(String[] args) {
     //Abstract Class Program
 	// abstraction means hiding the implementation details and showing only the functionality to the user 
-	Bank b= new Visa();
+	Bank b= new Mastercard ();
 	System.out.println("the account numerstart with :" +b.accountnumber());
 	}
 }
@@ -19,7 +19,7 @@ class Mastercard extends Bank
 {
 	int accountnumber()
 	{
-		return 0;
+		return 5;
 	}
 }
 class Visa extends Bank
