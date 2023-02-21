@@ -19,13 +19,13 @@ class Mastercard extends Bank
 {
 	int accountnumber()
 	{
-		return 8;
+		return 0;
 	}
 }
 class Visa extends Bank
 {
 	int accountnumber()
 	{
-		return 5;
+		return 7;
 	}
 }
